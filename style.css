@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins' ,sans-serif;
+}
+
+body header {
+    width: 100%;
+    display: flex;
+}
+
+header .topo {
+    display: flex;
+    align-items: center;
+    width: 1024px;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+
+.topo img {
+    width: 150px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 20px;
+    color: #2A2B30;
+    font-family: sans-serif;
+}
+
+.capa {
+    width: 100%;
+    position: relative;
+}
+
+.capa::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.capa img {
+    width: 100%;
+}
+
+.capa h1 {
+    width: 400px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.capa h1::first-line {
+    font-size: 70px;
+}
+
+.limite-largura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 40px 0;
+    font-size: 30px;
+}
+
+.sobre img, .pontos-turisticos img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.sobre p {
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+p::first-letter {
+    font-weight: 900;
+}
+
+.pontos-turisticos {
+    margin-bottom: 100px;
+}
+
+.pontos-turisticos p {
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.pontos-turisticos ul {
+    align-self: flex-start;
+    margin-left: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 12px 0 0 0
+}
+
+li::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("/img/seta.png");
+    margin: 0px 6px 0 0;
+}
+
+.galeria span {
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.galeria-img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.galeria-img img {
+    width: calc(98%/3);
+    opacity: 0.6;
+}
+
+.galeria-img img:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+footer {
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+    background-color: #F5C002;
+    padding: 15px;
+}
+
+
+
+
+
